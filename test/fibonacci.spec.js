@@ -18,7 +18,7 @@ describe('Testing fibonacci', function () {
     it('should return 0 for negative index', function() {
     	expect(fibonacci(-1)).to.equal(0);
     });
-    it('should return "error" for a non-number', function() {
+    it('should return "whole numbers only" for a non-number', function() {
     	expect((fibonacci('Ricky'))).to.be.a('string');
     });
     it('should return "whole numbers only" for a non-whole number', function() {
